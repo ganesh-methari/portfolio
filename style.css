@@ -41,7 +41,7 @@ justify-content:center;
 gap:30px;
 padding:40px;
 background:white;
-min-height:80vh;
+min-height:30vh;
 flex-wrap:wrap; /* helps responsive */
 }
 
