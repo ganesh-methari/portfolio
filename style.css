@@ -41,13 +41,19 @@ justify-content:center;
 gap:30px;
 padding:40px;
 background:white;
-min-height:30vh;
+min-height:auto;
 flex-wrap:wrap; /* helps responsive */
+/* border: 1px solid red; */
+
 }
 
 .about img{
-width:160px;
-border-radius:50%;
+max-width:500px;
+
+border-radius:20px;
+margin-top: 20px;
+
+/* border: 1px solid red; */
 }
 
 .about-text h2{
