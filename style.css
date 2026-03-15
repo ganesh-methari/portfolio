@@ -27,25 +27,25 @@ h2 {
 /* header */
 
 header{
-background:#222;
-color:white;
-text-align:center;
-padding:20px;
-position: sticky;
-top: 0;
-left: 0;
-width: 100%;
-z-index: 100;
+    background: rgba(255, 255, 255, 0.6); /* semi-transparent */
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    backdrop-filter: blur(10px); /* only background blurs */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
 }
 
-nav{
-margin-top:10px;
-}
+
 
 nav a{
-color:white;
+color:black;
 margin:10px;
-text-decoration:none;
+text-decoration:none;padding: 10px;
 }
 
 nav a:hover{
